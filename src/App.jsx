@@ -6,7 +6,6 @@ import NavBar from './components/NavBar'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 
 import Login from './components/login'
-import Parent from './ExerCise/Parent'
 function App() {
 
   return (
@@ -16,7 +15,7 @@ function App() {
       <Routes>
         <Route path='/Login' element={<Login/>}/>
         <Route path='/Signup' element={<SignUp/>}/>
-        <Route path='/child' element={<Parent/>}/>
+
       </Routes>
       </Router>
     </div>
