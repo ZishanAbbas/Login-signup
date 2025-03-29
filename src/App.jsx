@@ -5,7 +5,7 @@ import SignUp from './components/SignUp'
 import NavBar from './components/NavBar'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 
-import Login from './components/login'
+import Login from './components/Login'
 function App() {
 
   return (
